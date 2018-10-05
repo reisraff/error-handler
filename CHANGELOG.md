@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.0] - ???
+
+### Changed
+
+- Require PHP >=7.1
+- Always catches exceptions
+- Create separate classes for error formatters
+- Allow any number of formatters to be used
+- Allow any exception to define HTTP status code
+
 ## [1.2.0] - 2018-08-04
 
 ### Added
